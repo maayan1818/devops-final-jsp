@@ -1,10 +1,10 @@
 # DevOps Final Project
 
 ## Team Members
-- Stav Atias    - 209354570
-- Yakira Siboni - 208499426
-- Maayan Halifa - 323133090 
-- Liron Avizof  - 212617849
+- Stav Atias    
+- Yakira Siboni 
+- Maayan Halifa 
+- Liron Avizof  
 
 ## Project Overview
 This project is a simple Java JSP web application developed as part of the DevOps final course project.
