@@ -20,10 +20,15 @@ The application is intentionally simple and lightweight in order to focus on Dev
 ## ZIP Content Overview
 
 /app         – JSP application source code
+
 /screenshots – GitHub and Tomcat proof
+
 /monitoring  – Availability monitoring evidence
+
 /selenium    – Automated functional tests
+
 /har         – HAR file and scenario
+
 /gatling     – Performance tests and reports
 
 
