@@ -1,0 +1,4 @@
+The monitor we used is JMeter.
+It has many capabilities, some of them is to simulate a connection to a dedicated url.
+We used it to sample a request to the app URL 'localhost:8080/'.
+Asserting status code == 2xx, any other status code, the jenkins job monitor will fail.

@@ -1,0 +1,4 @@
+Click on the "Your Name" input field ->
+Type the name "DevOps" ->
+Press Enter ->
+The application responds with the message "Hey DevOps"

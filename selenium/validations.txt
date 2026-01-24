@@ -1,0 +1,31 @@
+Selenium Validations
+
+1. Page Title Validation (assert title)
+    What is validated:
+    The page title contains "DevOps Final Project".
+
+    Why:
+    This validation ensures that the URL loads the correct application page and not an error page (such as 404) or a different Tomcat default page.
+
+2. Input Field Presence (assert element present)
+    What is validated:
+    A text input field with the name username exists on the page.
+
+    Why:
+    This confirms that the interactive UI elements are loaded correctly and that the user can enter input before starting the test flow.
+
+3. Functional Text Output (assert text)
+
+    What is validated:
+    After clicking and submitting the input, the text "Hey maayan" appears in the expected location on the page.
+
+    Why:
+    This is a critical functional validation that verifies the JSP backend correctly receives the input, processes it, and returns a personalized response to the user.
+
+4. Page Navigation Validation (assert title)
+
+    What is validated:
+    After clicking the About link, the page title changes to "About - DevOps Project".
+
+    Why:
+    This validation ensures that navigation between pages works correctly and that internal routing inside the web application functions as expected.

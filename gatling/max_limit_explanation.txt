@@ -1,0 +1,5 @@
+The Max Limit test gradually increased the request rate in order to identify the maximum sustainable capacity of the application.
+Up to the saturation point, successful requests maintained acceptable response times (95th percentile around ~2 seconds), indicating stable application behavior.
+As the load approached ~6,600 requests per second, the failure rate increased significantly, mainly due to connection refused and connection timeout errors.
+This indicates that while the application itself remained responsive, many requests failed before being fully processed.
+The system reached an infrastructure limit (Tomcat / OS), where CPU, connection backlogs, or limits were exhausted.
