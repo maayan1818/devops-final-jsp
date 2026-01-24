@@ -7,19 +7,22 @@
 - Liron Avizof  
 
 ## Project Overview
-This project is a simple Java JSP web application developed as part of the DevOps final course project.
+A simple Java JSP web application created to demonstrate DevOps practices.
+The application includes basic user interaction, input handling, and page navigation.
+Its simplicity allows focusing on CI/CD, monitoring, testing, and performance analysis.
 
-The application demonstrates a basic web flow that includes:
-- A main page with styled content and user interaction
-- A text input field for user input
-- Navigation between pages using links
-- A secondary “About” page that provides additional information about the application
-
-The application is intentionally simple and lightweight in order to focus on DevOps practices rather than complex business logic.
+## DevOps Scope
+The project was delivered to production using a full CI/CD pipeline that includes:
+- Source control using GitHub
+- Automated CI/CD pipelines using Jenkins
+- Availability monitoring using JMeter
+- Automated functional testing with Selenium
+- Performance testing using Gatling (Max Limit, Load, and Stress tests)
 
 ## ZIP Content Overview
 
 /app         – JSP application source code
+
 
 /screenshots – GitHub and Tomcat proof
 
@@ -31,19 +34,9 @@ The application is intentionally simple and lightweight in order to focus on Dev
 
 /gatling     – Performance tests and reports
 
-
-## DevOps Scope
-The project was delivered to production using a full CI/CD pipeline that includes:
-- Source control using GitHub
-- Automated deployment to Apache Tomcat using Jenkins
-- Availability monitoring
-- Automated functional testing with Selenium
-- Performance testing using Gatling (Max Limit, Load, and Stress tests)
-
 ## Technology Stack
 - Java (JSP)
 - Apache Tomcat
 - Jenkins
 - Selenium IDE
 - Gatling
-
