@@ -89,7 +89,7 @@
         String user = request.getParameter("username");
         if (user != null && !user.isEmpty()) {
     %>
-        <div class="hello">Helloooooo <%= user %></div>
+        <div class="hello">Hey my friend <%= user %></div>
     <%
         }
     %>
