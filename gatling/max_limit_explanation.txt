@@ -1,5 +1,5 @@
-The Max Limit test gradually increased the request rate in order to identify the maximum sustainable capacity of the application.
-Up to the saturation point, successful requests maintained acceptable response times (95th percentile around ~2 seconds), indicating stable application behavior.
-As the load approached ~6,600 requests per second, the failure rate increased significantly, mainly due to connection refused and connection timeout errors.
-This indicates that while the application itself remained responsive, many requests failed before being fully processed.
-The system reached an infrastructure limit (Tomcat / OS), where CPU, connection backlogs, or limits were exhausted.
+The Max Limit test gradually increased the number of users to identify the application's maximum sustainable capacity. Up to the saturation point, successful requests maintained stable response times. In the 350-user test (generating 1,400 requests), the system handled a throughput of 466 requests per second. At this level, the 95th percentile remained below the 800ms threshold (specifically at 580ms), indicating full stability and strict SLA compliance.
+
+When the load was increased to 370 users, the throughput reached 493 requests per second, and response times began to exceed the defined SLA, with the maximum response time jumping to 866ms. In more extreme scenarios, such as the 30,000-user Stress Test, the failure rate increased significantly to 12% KO due to 'Connection Refused' and 'Timeout' errors.
+
+This behavior indicates that the system reached an infrastructure limit (Tomcat/OS), where available threads and the connection backlog were fully exhausted. Consequently, the maximum reliable capacity of the system is determined to be 466 requests per second, as any load beyond this point results in SLA violations.
