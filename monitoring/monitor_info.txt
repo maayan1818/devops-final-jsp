@@ -1,1 +1,4 @@
-We utilized JMeter as our monitoring tool to verify application availability by simulating connections to the application URL: localhost:8080/. The monitor is configured with an assertion requiring a 200 status code for a successful health check. If any other status code is returned, the Jenkins monitor job will fail, ensuring that the pipeline halts immediately if the application is not fully operational.
+We utilized JMeter as our monitoring tool to verify application availability by simulating connections to the application URL: localhost:8080/.
+The monitor is configured with an assertion requiring a 200 status code for a successful health check. 
+If any other status code is returned, the Jenkins monitor job will fail, ensuring that the pipeline halts immediately if the application is not fully operational.
+
