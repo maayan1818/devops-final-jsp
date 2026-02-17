@@ -70,7 +70,7 @@
       "command": "assertText",
       "target": "css=div.hello",
       "targets": [],
-      "value": "Hey maayan"
+      "value": "Hey my friend maayan"
     }, {
       "id": "24946eac-1ebc-4deb-9ba0-8af32fa624f9",
       "comment": "",
