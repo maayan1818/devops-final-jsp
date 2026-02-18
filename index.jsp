@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps Final Project1</title>
+    <title>DevOps Final Project</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -77,7 +77,7 @@
 <body>
 
 <div class="card">
-    <h2>DevOps Final Project</h2>
+    <h2>DevOps Final Project1</h2>
     <p>Enter your name to continue</p>
 
     <form method="get">
