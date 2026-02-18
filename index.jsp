@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DevOps Final Project</title>
+    <title>DevOps Final Project1</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
