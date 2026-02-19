@@ -1,4 +1,5 @@
-Click on the "Your Name" input field ->
-Type the name "DevOps" ->
-Press Enter ->
-The application responds with the message "Hey DevOps"
+Request 1 : The initial GET request to the dynamic index.jsp file to load the home page. The Tomcat server processes the Java code and returns a 200 OK status with the HTML content.
+Request 2 : A request for the static favicon.ico file (the website's tab icon). This is triggered automatically by the browser to display the icon in the tab.
+Request 3 : A second GET request to the index.jsp file. This simulates a page refresh by the user, forcing the server to re-process the dynamic backend logic.
+Request 4 : A follow-up request for the favicon.ico file after the page refresh. The server typically responds with a 304 Not Modified status, as the file is already stored in the user's browser cache.
+
