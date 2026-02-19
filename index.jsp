@@ -77,7 +77,7 @@
 <body>
 
 <div class="card">
-    <h2>DevOps Final Projectֱֱֱֱֱ!!!</h2>
+    <h2>DevOps Final Projectֱֱֱֱֱ</h2>
     <p>Enter your name to continue</p>
 
     <form method="get">
